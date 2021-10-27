@@ -1,8 +1,8 @@
 
 .. _about:
 
-About Dragonlord1005
+About Me
 ============================
 
-The world wants to know more about you.
+Hi, I am a young python programmer learning to code, primarily python.
 
