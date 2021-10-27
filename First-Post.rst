@@ -6,7 +6,7 @@ First Post
    :tags:
    :category: Personal
 
-Hi everyone, this is my first ever post, and hope it won't be the firt
+Hi everyone, this is my first ever post, and hope it won't be the last
 
 
 
