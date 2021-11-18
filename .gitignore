@@ -70,7 +70,6 @@ instance/
 
 # Sphinx documentation
 _website/
-.doctrees/
 
 # PyBuilder
 target/
