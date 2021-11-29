@@ -11,6 +11,10 @@ Sphinx = "^4.3.1"
 
 [tool.poetry.dev-dependencies]
 
+[tool.poe.tasks]
+replitdeploy = { cmd = "ablog deploy -g Dragonlord1005 --github-token ablog", help = "When using replit, this will publish the build to github pages" }
+idk = "ghp-import -o -n -p _website"
+
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
