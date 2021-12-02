@@ -6,7 +6,7 @@ authors = ["Dragonlord1005"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-ablog = "^0.10.20"
+ablog = "^0.10.21"
 Sphinx = "^4.3.1"
 
 [tool.poetry.dev-dependencies]

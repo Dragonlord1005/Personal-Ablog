@@ -1,10 +1,10 @@
 [[package]]
 name = "ablog"
-version = "0.10.20"
+version = "0.10.21"
 description = "A Sphinx extension that converts any documentation or personal website project into a full-fledged blog."
 category = "main"
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.7"
 
 [package.dependencies]
 docutils = "*"
@@ -89,20 +89,6 @@ lxml = "*"
 python-dateutil = "*"
 
 [[package]]
-name = "ghp-import"
-version = "2.0.2"
-description = "Copy your docs directly to the gh-pages branch."
-category = "main"
-optional = false
-python-versions = "*"
-
-[package.dependencies]
-python-dateutil = ">=2.8.1"
-
-[package.extras]
-dev = ["twine", "markdown", "flake8", "wheel"]
-
-[[package]]
 name = "idna"
 version = "3.3"
 description = "Internationalized Domain Names in Applications (IDNA)"
@@ -172,26 +158,6 @@ python-versions = ">=3.6"
 
 [package.dependencies]
 pyparsing = ">=2.0.2,<3.0.5 || >3.0.5"
-
-[[package]]
-name = "pastel"
-version = "0.2.1"
-description = "Bring colors to your terminal."
-category = "dev"
-optional = false
-python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
-
-[[package]]
-name = "poethepoet"
-version = "0.11.0"
-description = "A task runner that works well with poetry."
-category = "dev"
-optional = false
-python-versions = ">=3.6.2,<4.0.0"
-
-[package.dependencies]
-pastel = ">=0.2.1,<0.3.0"
-tomli = ">=1.2.2,<2.0.0"
 
 [[package]]
 name = "pygments"
@@ -368,14 +334,6 @@ lint = ["flake8", "mypy", "docutils-stubs"]
 test = ["pytest"]
 
 [[package]]
-name = "tomli"
-version = "1.2.2"
-description = "A lil' TOML parser"
-category = "dev"
-optional = false
-python-versions = ">=3.6"
-
-[[package]]
 name = "urllib3"
 version = "1.26.7"
 description = "HTTP library with thread-safe connection pooling, file post, and more."
@@ -402,12 +360,12 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "aec237aec13176fe30d11b311f7b782310cb57dbd3802dc9804a473722497fb5"
+content-hash = "9cec220d420a99a936dbe5873d7bad60b2ce26401c8f848756a113b016a8d115"
 
 [metadata.files]
 ablog = [
-    {file = "ablog-0.10.20-py3-none-any.whl", hash = "sha256:3587792f5da359defa8dd13eb55571aebbf84e4dff3b99ca10badf79dd168d42"},
-    {file = "ablog-0.10.20.tar.gz", hash = "sha256:d20f476ae9bffa28b71c52a51bda4065eb1a620bb9c81a2774e4a764b8841a50"},
+    {file = "ablog-0.10.21-py3-none-any.whl", hash = "sha256:0df099822ef2df50baa22abcd1ca37f0c52929e3453c7b920fb0acacc40907ed"},
+    {file = "ablog-0.10.21.tar.gz", hash = "sha256:df201a96c28ec168397747e6db18b2796236bc7ffef101b5fec2f1c482de126f"},
 ]
 alabaster = [
     {file = "alabaster-0.7.12-py2.py3-none-any.whl", hash = "sha256:446438bdcca0e05bd45ea2de1668c1d9b032e1a9154c2c259092d77031ddd359"},
@@ -435,10 +393,6 @@ docutils = [
 ]
 feedgen = [
     {file = "feedgen-0.9.0.tar.gz", hash = "sha256:8e811bdbbed6570034950db23a4388453628a70e689a6e8303ccec430f5a804a"},
-]
-ghp-import = [
-    {file = "ghp-import-2.0.2.tar.gz", hash = "sha256:947b3771f11be850c852c64b561c600fdddf794bab363060854c1ee7ad05e071"},
-    {file = "ghp_import-2.0.2-py3-none-any.whl", hash = "sha256:5f8962b30b20652cdffa9c5a9812f7de6bcb56ec475acac579807719bf242c46"},
 ]
 idna = [
     {file = "idna-3.3-py3-none-any.whl", hash = "sha256:84d9dd047ffa80596e0f246e2eab0b391788b0503584e8945f2368256d2735ff"},
@@ -594,14 +548,6 @@ packaging = [
     {file = "packaging-21.3-py3-none-any.whl", hash = "sha256:ef103e05f519cdc783ae24ea4e2e0f508a9c99b2d4969652eed6a2e1ea5bd522"},
     {file = "packaging-21.3.tar.gz", hash = "sha256:dd47c42927d89ab911e606518907cc2d3a1f38bbd026385970643f9c5b8ecfeb"},
 ]
-pastel = [
-    {file = "pastel-0.2.1-py2.py3-none-any.whl", hash = "sha256:4349225fcdf6c2bb34d483e523475de5bb04a5c10ef711263452cb37d7dd4364"},
-    {file = "pastel-0.2.1.tar.gz", hash = "sha256:e6581ac04e973cac858828c6202c1e1e81fee1dc7de7683f3e1ffe0bfd8a573d"},
-]
-poethepoet = [
-    {file = "poethepoet-0.11.0-py3-none-any.whl", hash = "sha256:4aac200f52e0faa309a655c064f2a522d9d18b64f717de9805151421166ba4d8"},
-    {file = "poethepoet-0.11.0.tar.gz", hash = "sha256:a0618e198600db801588bae627982682f8bd5304a49a75c6dbc430feade5a8a9"},
-]
 pygments = [
     {file = "Pygments-2.10.0-py3-none-any.whl", hash = "sha256:b8e67fe6af78f492b3c4b3e2970c0624cbf08beb1e493b2c99b9fa1b67a20380"},
     {file = "Pygments-2.10.0.tar.gz", hash = "sha256:f398865f7eb6874156579fdf36bc840a03cab64d1cde9e93d68f46a425ec52c6"},
@@ -657,10 +603,6 @@ sphinxcontrib-qthelp = [
 sphinxcontrib-serializinghtml = [
     {file = "sphinxcontrib-serializinghtml-1.1.5.tar.gz", hash = "sha256:aa5f6de5dfdf809ef505c4895e51ef5c9eac17d0f287933eb49ec495280b6952"},
     {file = "sphinxcontrib_serializinghtml-1.1.5-py2.py3-none-any.whl", hash = "sha256:352a9a00ae864471d3a7ead8d7d79f5fc0b57e8b3f95e9867eb9eb28999b92fd"},
-]
-tomli = [
-    {file = "tomli-1.2.2-py3-none-any.whl", hash = "sha256:f04066f68f5554911363063a30b108d2b5a5b1a010aa8b6132af78489fe3aade"},
-    {file = "tomli-1.2.2.tar.gz", hash = "sha256:c6ce0015eb38820eaf32b5db832dbc26deb3dd427bd5f6556cf0acac2c214fee"},
 ]
 urllib3 = [
     {file = "urllib3-1.26.7-py2.py3-none-any.whl", hash = "sha256:c4fdf4019605b6e5423637e01bc9fe4daef873709a7973e195ceba0a62bbc844"},
