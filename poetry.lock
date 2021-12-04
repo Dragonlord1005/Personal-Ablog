@@ -1,10 +1,10 @@
 [[package]]
 name = "ablog"
-version = "0.10.20"
+version = "0.10.21"
 description = "A Sphinx extension that converts any documentation or personal website project into a full-fledged blog."
 category = "main"
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.7"
 
 [package.dependencies]
 docutils = "*"
@@ -51,7 +51,7 @@ python-versions = "*"
 
 [[package]]
 name = "charset-normalizer"
-version = "2.0.8"
+version = "2.0.9"
 description = "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet."
 category = "main"
 optional = false
@@ -87,20 +87,6 @@ python-versions = "*"
 [package.dependencies]
 lxml = "*"
 python-dateutil = "*"
-
-[[package]]
-name = "ghp-import"
-version = "2.0.2"
-description = "Copy your docs directly to the gh-pages branch."
-category = "main"
-optional = false
-python-versions = "*"
-
-[package.dependencies]
-python-dateutil = ">=2.8.1"
-
-[package.extras]
-dev = ["twine", "markdown", "flake8", "wheel"]
 
 [[package]]
 name = "idna"
@@ -177,7 +163,7 @@ pyparsing = ">=2.0.2,<3.0.5 || >3.0.5"
 name = "pastel"
 version = "0.2.1"
 description = "Bring colors to your terminal."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
@@ -185,7 +171,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 name = "poethepoet"
 version = "0.11.0"
 description = "A task runner that works well with poetry."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6.2,<4.0.0"
 
@@ -371,7 +357,7 @@ test = ["pytest"]
 name = "tomli"
 version = "1.2.2"
 description = "A lil' TOML parser"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -402,12 +388,12 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "aec237aec13176fe30d11b311f7b782310cb57dbd3802dc9804a473722497fb5"
+content-hash = "8f68a6c2699fa0805650e23084f0c5d4e0beb700011823dd42047da4fd8f4f51"
 
 [metadata.files]
 ablog = [
-    {file = "ablog-0.10.20-py3-none-any.whl", hash = "sha256:3587792f5da359defa8dd13eb55571aebbf84e4dff3b99ca10badf79dd168d42"},
-    {file = "ablog-0.10.20.tar.gz", hash = "sha256:d20f476ae9bffa28b71c52a51bda4065eb1a620bb9c81a2774e4a764b8841a50"},
+    {file = "ablog-0.10.21-py3-none-any.whl", hash = "sha256:0df099822ef2df50baa22abcd1ca37f0c52929e3453c7b920fb0acacc40907ed"},
+    {file = "ablog-0.10.21.tar.gz", hash = "sha256:df201a96c28ec168397747e6db18b2796236bc7ffef101b5fec2f1c482de126f"},
 ]
 alabaster = [
     {file = "alabaster-0.7.12-py2.py3-none-any.whl", hash = "sha256:446438bdcca0e05bd45ea2de1668c1d9b032e1a9154c2c259092d77031ddd359"},
@@ -422,8 +408,8 @@ certifi = [
     {file = "certifi-2021.10.8.tar.gz", hash = "sha256:78884e7c1d4b00ce3cea67b44566851c4343c120abd683433ce934a68ea58872"},
 ]
 charset-normalizer = [
-    {file = "charset-normalizer-2.0.8.tar.gz", hash = "sha256:735e240d9a8506778cd7a453d97e817e536bb1fc29f4f6961ce297b9c7a917b0"},
-    {file = "charset_normalizer-2.0.8-py3-none-any.whl", hash = "sha256:83fcdeb225499d6344c8f7f34684c2981270beacc32ede2e669e94f7fa544405"},
+    {file = "charset-normalizer-2.0.9.tar.gz", hash = "sha256:b0b883e8e874edfdece9c28f314e3dd5badf067342e42fb162203335ae61aa2c"},
+    {file = "charset_normalizer-2.0.9-py3-none-any.whl", hash = "sha256:1eecaa09422db5be9e29d7fc65664e6c33bd06f9ced7838578ba40d58bdf3721"},
 ]
 colorama = [
     {file = "colorama-0.4.4-py2.py3-none-any.whl", hash = "sha256:9f47eda37229f68eee03b24b9748937c7dc3868f906e8ba69fbcbdd3bc5dc3e2"},
@@ -435,10 +421,6 @@ docutils = [
 ]
 feedgen = [
     {file = "feedgen-0.9.0.tar.gz", hash = "sha256:8e811bdbbed6570034950db23a4388453628a70e689a6e8303ccec430f5a804a"},
-]
-ghp-import = [
-    {file = "ghp-import-2.0.2.tar.gz", hash = "sha256:947b3771f11be850c852c64b561c600fdddf794bab363060854c1ee7ad05e071"},
-    {file = "ghp_import-2.0.2-py3-none-any.whl", hash = "sha256:5f8962b30b20652cdffa9c5a9812f7de6bcb56ec475acac579807719bf242c46"},
 ]
 idna = [
     {file = "idna-3.3-py3-none-any.whl", hash = "sha256:84d9dd047ffa80596e0f246e2eab0b391788b0503584e8945f2368256d2735ff"},
