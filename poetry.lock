@@ -1,6 +1,6 @@
 [[package]]
 name = "ablog"
-version = "0.10.22"
+version = "0.10.23"
 description = "A Sphinx extension that converts any documentation or personal website project into a full-fledged blog."
 category = "main"
 optional = false
@@ -388,12 +388,12 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "22acef7f43a6f5d583a7515468d049afe37d320503e20962dc35b71ecd6c49cb"
+content-hash = "1a95f1a89de3eb20731fc2e0316f830d0a5ace8e71d7bdbc7bf78957f1265ae7"
 
 [metadata.files]
 ablog = [
-    {file = "ablog-0.10.22-py3-none-any.whl", hash = "sha256:5b7022561dc78721ea7970bcefdaf1cfeab901fff10d0c5b230533dfe0bda46e"},
-    {file = "ablog-0.10.22.tar.gz", hash = "sha256:118cc85d1010c312a16b202f8dd81fd2451abc9a77975e413b72701d20db4f7e"},
+    {file = "ablog-0.10.23-py3-none-any.whl", hash = "sha256:86457994f016a4d3042d69e6d0858de000f7e0aed44eed9030b2ba746d19b7df"},
+    {file = "ablog-0.10.23.tar.gz", hash = "sha256:7eaa81d7b74dcdc0d9985c379e3f394f9cef33363a48dfc9c5b07720048e6acf"},
 ]
 alabaster = [
     {file = "alabaster-0.7.12-py2.py3-none-any.whl", hash = "sha256:446438bdcca0e05bd45ea2de1668c1d9b032e1a9154c2c259092d77031ddd359"},
