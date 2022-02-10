@@ -8,7 +8,7 @@ authors = ["Dragonlord1005"]
 python = "^3.8"
 ablog = "^0.10.23"
 Sphinx = "^4.4.0"
-poethepoet = "^0.12.2"
+poethepoet = "^0.12.3"
 
 [tool.poetry.dev-dependencies]
 
